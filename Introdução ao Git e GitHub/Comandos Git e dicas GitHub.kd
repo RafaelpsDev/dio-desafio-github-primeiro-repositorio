@@ -1,0 +1,36 @@
+### **Comandos Git** 
+
+* mkdir – o mesmo comando utilizado no prompt de comando para criar pasta.
+
+* ls – lista o que está dentro do diretório
+* ls -a – mostra arquivos ocultos
+
+* cd [nome da pasta] = entra na pasta
+
+* git init – inicializa o Git para começar a versionar o código, cria o repositório git. 
+
+* Ctrl + L limpa a sessão para melhor visualização
+
+  
+
+### **Para conseguir versionar projetos no git, precisa de usuário e senha para assinar esses commits**
+
+* git config –global user.email – cria o e-mail
+
+* git config –global user.name – cria o usuário
+
+* git add * - adiciona o arquivo ao commit
+
+* git commit -m “Comentario sobre o commit” – commita a alteração
+
+- git status – mostra o status do arquivo (se esta untracked, Unmodifield, Modifield ou Staged)
+- mv (arquivo) ./ - (repositório destino)– comando para mover um arquivo para uma pasta
+- git add * - tudo que esta em working diretory será adicionado para staged
+- git add . – adiciona todos os arquivos para staged, até mesmo os Untracked
+- git remote add origin – Serve para adicionar o link da conta do github ao git (origin é um alias para não precisar toda vez passar o link inteiro)
+- git remote -v – lista os links do github 
+- git clone [link do repositório do github] – Clona para sua maquina o repositório que esta no github, exemplo: git clone https://github.com/RafaelpsDev/dio-desafio-github-primeiro-repositorio.git
+- git pull origin master – puxa a versão do github para o repositório local
+- git posh origin master – empurra o projeto que esta local para o git hub
+
+![Interface gráfica do usuário, Aplicativo  Descrição gerada automaticamente](file:///C:/Users/Unip/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)

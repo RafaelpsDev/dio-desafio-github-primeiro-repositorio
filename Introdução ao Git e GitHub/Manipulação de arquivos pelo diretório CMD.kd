@@ -1,0 +1,12 @@
+### Manipulação de arquivos pelo diretório CMD
+
+- mkdir workspace – mkdir cria um diretório.
+- cd / - Vai para o diretório C:\
+- cd.. - volta uma pasta
+- dir – Lista tudo que tem na pasta que esta no momento
+- echo hello > hello.txt – nesse exemplo cria um arquivo txt
+- del workspace – remove tudo que estiver dentro da pasta workspace
+
+ ## Usando a seta para cima do teclado, você navega por todos os comandos realizados no momento, útil para o caso de precisar executar algum comando novamente sem precisar digitar tudo de novo. 
+
+* rmdir workspace /S /Q – rmdir(Remove Directory) remove o diretório workspace, (/S /Q) são flags para simplificar a remoção 
